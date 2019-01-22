@@ -4,12 +4,12 @@ Question 2:  Consider the following method definition. public long multiply(int 
 
 } Modify the following method definition so that it accepts three integers in the form of parameters, computes their product, and prints it to the console. The method should not return a value.:
 
-The correct answer is public void multiply(int a, int b, int c) { System.out.println(a * b * c); } because it accepts the 3 integers and does not need to return anything. The other answers are wrong because the method either isn’t void, meaning that it must return a value, or doesn’t print out the answer.
+Correct Answer: public void multiply(int a, int b, int c) { System.out.println(a * b * c); } because it accepts the 3 integers and does not need to return anything. The other answers are wrong because the method either isn’t void, meaning that it must return a value, or doesn’t print out the answer.
 
 
 Question 3: Consider the following code snippet. String str = "Hello, there. My name is Joseph. What's yours?"; char c = str.charAt(7); What is the value of c after running this code?:
 
-The correct answer is 't'. The reason it is ‘t’ is because char c = str.charAt(7); is a character data type. A character data type will be store with ‘’ and since the 7th index in String str = "Hello, there. My name is Joseph. What's yours?" is t, that is what you get.
+Correct Answer:'t'. The reason it is ‘t’ is because char c = str.charAt(7); is a character data type. A character data type will be store with ‘’ and since the 7th index in String str = "Hello, there. My name is Joseph. What's yours?" is t, that is what you get.
 
 Question 6: When writing a method, you must always include a(n) SELECT , a(n) SELECT , and the method name (in that order). Together, this is known as the method's method identifier .
 
@@ -38,9 +38,9 @@ It's Correct beause the Math.ceil() function returns the smallest integer greate
 
 Question 11: Match the access modifier with its visibility.
 
-The correct answer is: public being visible in all packages, private being visible only in the class in which its defined, default being visible within the class in which it's defined, as well as by classes within the same package, and protected being visible within the class in which it's defined, by classes within the same package, and by subclasses of the class in which it's defined. 
+Correct answer: public being visible in all packages, private being visible only in the class in which its defined, default being visible within the class in which it's defined, as well as by classes within the same package, and protected being visible within the class in which it's defined, by classes within the same package, and by subclasses of the class in which it's defined. 
 
-This is the correct answer because if you search up the definition of each class, it describes what the purposes are for the access modifiers . Default and protected classes are both “package-level access” classes, meaning that only classes in the same package can access it.
+This is correct because if you search up the definition of each class, it describes what the purposes are for the access modifiers . Default and protected classes are both “package-level access” classes, meaning that only classes in the same package can access it.
 
 Question 12: Let's assume I've got my Scanner object setup as shown below.
 import java.util.Scanner;
@@ -56,9 +56,9 @@ public class Example {
 }
 Given the text printed to the console and the implied data types, which methods of the Scanner class should I use and how do I use them?
 
-The correct anwer is ( String name = s.nextLine(); int age = s.nextInt(); ) because the string is set equal to getSTring, this stores the user input and returns it as a string using s.nextInt().
+Correct Answer: ( String name = s.nextLine(); int age = s.nextInt(); ) because the string is set equal to getSTring, this stores the user input and returns it as a string using s.nextInt().
 
 Question 13: Consider the following method definition. public double randomNumber(int seed) { if (seed > 1000) { return Math.random() * seed; } else if (seed > 500) { return Math.random() * seed * -1; } } I keep getting an error message telling me that my method must return a value of type double. What's wrong with my code?:
 
-The correct answer is For seed values less than or equal to 500, the method does not return a value. This is because the if statements both have conditions where seed is more than 500, but there is no condition if that is not true. The other statements are not right about the code.
+Correct Answer: For seed values less than or equal to 500, the method does not return a value. This is because the if statements both have conditions where seed is more than 500, but there is no condition if that is not true. The other statements are not right about the code.
 
